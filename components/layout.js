@@ -9,15 +9,9 @@ const Layout = ({ children }) => {
         {children}
         <div className="flex flex-row justify-between my-8">
           <p className="text-sm text-tertiary dark:text-darkTertiary">
-            © {new Date().getFullYear()} Gavin Nelson
+            © {new Date().getFullYear()} Mithil Verma
           </p>
           <div className="flex flex-row">
-            <a
-              href="https://nelson.co/feed.xml"
-              className="mr-4 text-sm text-tertiary dark:text-darkTertiary"
-            >
-              RSS
-            </a>
             <Link
               href="/colophon"
               passhref
@@ -25,11 +19,6 @@ const Layout = ({ children }) => {
             >
               Colophon
             </Link>
-            <div className="hidden">
-              <a rel="me" href="https://mastodon.design/@gn">
-                Mastodon
-              </a>
-            </div>
           </div>
         </div>
       </div>

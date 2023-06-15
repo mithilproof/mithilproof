@@ -6,7 +6,7 @@ const Canvas = props => {
   const canvasRef = useRef(null)
 
   const draw = (context, x, y, r, g, b) => {
-    context.fillStyle = `rgb(0, ${g}, ${b})`
+    context.fillStyle = `rgb(${r}, ${g}, ${b})`
     context.fillRect(x, y, 32, 32)
   }
 
@@ -19,10 +19,10 @@ const Canvas = props => {
     let animationFrameId = null
 
     const R = function (x, y, time) {
-      return Math.floor(20 + 64 * Math.cos((x * x + y * y) / 300 + time))
+      return Math.floor(99 + 64 * Math.cos((x * x + y * y) / 300 + time))
     }
     const G = function (x, y, time) {
-      return Math.floor(130 + 64 * Math.cos((x * x - y * y) / 200 + time))
+      return Math.floor(50 + 64 * Math.cos((x * x - y * y) / 200 + time))
     }
     const B = function (x, y, time) {
       return Math.floor(255 + 64 * Math.cos((x * x + y * y) / 300 + time))

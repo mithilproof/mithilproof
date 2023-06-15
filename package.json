@@ -1,9 +1,9 @@
 {
-  "name": "gavin-nelson",
+  "name": "mithilproof",
   "private": true,
-  "description": "Gavin Nelson's personal website and product design portfolio.",
+  "description": ".",
   "version": "0.1.0",
-  "author": "Gavin Nelson <gavin@nelson.co>",
+  "author": "",
   "dependencies": {
     "@mdx-js/loader": "^2.3.0",
     "@next/mdx": "^13.2.4",

@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         background: "hsl(0, 0%, 98%)",
-        darkBackground: "hsl(224, 25%, 12%)",
+        darkBackground: "#23201F",
         code: "hsl(0, 0%, 93%)",
         darkCode: "hsl(224, 25%, 8%)",
         selection: "#FFAB7F",
@@ -18,9 +18,9 @@ module.exports = {
         primary: "hsl(0, 0%, 5%)",
         secondary: "hsl(0, 0%, 23%)",
         tertiary: "hsl(224, 6%, 48%)",
-        darkTertiary: "hsl(224, 25%, 56%)",
+        darkTertiary: "#797673",
         darkPrimary: "hsl(0, 0%, 100%)",
-        darkSecondary: "hsl(224, 25%, 80%)",
+        darkSecondary: "#BAB6B1",
         svg: "hsl(0, 0%, 98%)",
         darkSVG: "hsl(224, 25%, 12%)",
       },

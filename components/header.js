@@ -26,9 +26,9 @@ const Header = () => {
         </div>
       </div>
       <div className={justLogo ? "hidden" : ""}>
-        <h1 className="text-base">Gavin Nelson</h1>
+        <h1 className="text-base">Mithil Verma</h1>
         <h2 className="text-tertiary dark:text-darkTertiary">
-          Product & Icon Designer
+          Design, Code, Business, and Life
         </h2>
       </div>
     </div>
