@@ -1,4 +1,4 @@
-# nelson.co
+mithil.vercel.app
 
 The code repository that powers [my personal website and portfolio.](https://nelson.co)
 
